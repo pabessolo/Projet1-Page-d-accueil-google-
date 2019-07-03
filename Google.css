@@ -1,0 +1,30 @@
+header,
+body,
+footer {
+	border: 2px solid green;
+}
+
+div {
+	border: 2px solid red;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	font-family: "Times New Roman", Georgia, "Arial Black", Arial,Impact, sans serif;
+}
+body{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form{
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+}
